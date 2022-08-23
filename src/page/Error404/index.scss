@@ -1,0 +1,39 @@
+.error {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  .err-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15%;
+    width: 50%;
+    height: 100%;
+    .err-left-top {
+      font-size: 144px;
+      font-weight: 700;
+      &::after {
+        content: '';
+        width: 80px;
+        height: 5px;
+        display: block;
+        background: #ffdb00;
+      }
+    }
+    .err-left-center {
+      font-size: 30px;
+      color: #606f7b;
+      font-family: Nunito, sans-serif;
+      font-weight: 100;
+      padding: 10px 0;
+    }
+  }
+  .err-right {
+    width: 50%;
+    height: 100%;
+    background: #000;
+  }
+}

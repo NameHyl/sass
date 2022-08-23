@@ -1,0 +1,43 @@
+
+.form-title {
+    font-weight: 700;
+    font-size: 18px;
+    color: #333;
+  }
+  .foot-divider {
+    border-top: 2px solid #e4e8ef !important;
+  }
+  .foot-btns {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .btn-item {
+    width: 200px;
+  }
+  // .cancel-btn {
+  //   &:hover {
+  //     border: 1px solid #ffbd00 !important;
+  //     color: #ffbd00 !important;
+  //   }
+  // }
+  .save-btn {
+    // background: #ffbd00 !important;
+    margin-left: 20px;
+    // &:hover {
+    //   color: #fff !important;
+    //   border: none !important;
+    // }
+  }
+  .shop-name-label {
+    .ant-picker.ant-picker-borderless {
+      background: #fff !important;
+    }
+    .ant-picker-range .ant-picker-active-bar {
+      background: #ffbd00 !important;
+    }
+    .ant-input-group-addon {
+      background: #fff;
+      border: none;
+    }
+  }
+  
